@@ -1,21 +1,41 @@
 {
   "tests": [
     {
-      "name": "Jurnal01",
+      "name": "Jurnal01a",
       "setup": "javac Jurnal01.java",
       "run": "java Jurnal01",
-      "input": "4",
-      "output": "16",
+      "input": "12",
+      "output": "Kelipatan empat",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal01b",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "12=3",
+      "output": "Bukan kelipatan empat",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
     {
-      "name": "Jurnal02",
+      "name": "Jurnal02a",
       "setup": "javac Jurnal02.java",
       "run": "java Jurnal02",
-      "input": "Implementasi Algoritma\n6",
-      "output": "Aku suka kuliah Implementasi Algoritma.\nKuliah 6 jam per minggu rasanya kurang.\nTambahin dong jadi 12 jam per minggu :)",
+      "input": "43",
+      "output": "Penghasilan kotor = 43 juta Rupiah\nPajak 5% = Rp. 2150000\nPenghasilan bersih = Rp. 40850000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+	{
+      "name": "Jurnal02b",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "512",
+      "output": "Penghasilan kotor = 512 juta Rupiah\nPajak 30% = Rp. 153600000\nPenghasilan bersih = Rp. 358400000",
       "comparison": "included",
       "timeout": 10,
       "points": 20
@@ -24,8 +44,8 @@
       "name": "Jurnal03a",
       "setup": "javac Jurnal03.java",
       "run": "java Jurnal03",
-      "input": "87 81 76",
-      "output": "80.5",
+      "input": "75 78 74",
+      "output": "Radi, Dira, Idar",
       "comparison": "included",
       "timeout": 10,
       "points": 15
@@ -34,28 +54,58 @@
       "name": "Jurnal03b",
       "setup": "javac Jurnal03.java",
       "run": "java Jurnal03",
-      "input": "70 55 33",
-      "output": "49.95",
+      "input": "81 75 79",
+      "output": "Dira, Idar, Radi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+	{
+      "name": "Jurnal03c",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "80 82 85",
+      "output": "Idar, Radi, Dira",
       "comparison": "included",
       "timeout": 10,
       "points": 15
     },
     {
-      "name": "TP01",
+      "name": "TP01a",
       "setup": "javac TP01.java",
       "run": "java TP01",
-      "input": "10000 30",
-      "output": "300000",
+      "input": "6",
+      "output": "Enam",
       "comparison": "included",
       "timeout": 10,
       "points": 10
     },
     {
-      "name": "TP02",
+      "name": "TP01b",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "7",
+      "output": "Bukan enam",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "TP02a",
       "setup": "javac TP02.java",
       "run": "java TP02",
-      "input": "Indra Azimi\n20",
-      "output": "Halo, Indra Azimi.\nTernyata usiamu baru 20 tahun ya!",
+      "input": "20",
+      "output": "Telur 20 x 18000 = 360000\nDiskon 10% = 36000\nTotal dibayar = 324000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "TP02b",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "5",
+      "output": "Telur 5 x 18000 = 90000\nDiskon 0% = 0\nTotal dibayar = 90000",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -64,8 +114,8 @@
       "name": "TP03a",
       "setup": "javac TP03.java",
       "run": "java TP03",
-      "input": "12 3",
-      "output": "3\n0",
+      "input": "75 78 74",
+      "output": "Radi",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -74,8 +124,18 @@
       "name": "TP03b",
       "setup": "javac TP03.java",
       "run": "java TP03",
-      "input": "20 2",
-      "output": "6\n2",
+      "input": "81 75 79",
+      "output": "Dira",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "TP03c",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "80 82 85",
+      "output": "Idar",
       "comparison": "included",
       "timeout": 10,
       "points": 10
