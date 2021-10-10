@@ -28,7 +28,7 @@
       "output": "Penghasilan kotor = 43 juta Rupiah\nPajak 5% = Rp. 2150000\nPenghasilan bersih = Rp. 40850000",
       "comparison": "included",
       "timeout": 10,
-      "points": 20
+      "points": 10
     },
 	{
       "name": "Jurnal02b",
@@ -38,7 +38,7 @@
       "output": "Penghasilan kotor = 512 juta Rupiah\nPajak 30% = Rp. 153600000\nPenghasilan bersih = Rp. 358400000",
       "comparison": "included",
       "timeout": 10,
-      "points": 20
+      "points": 10
     },
     {
       "name": "Jurnal03a",
@@ -48,7 +48,7 @@
       "output": "Radi, Dira, Idar",
       "comparison": "included",
       "timeout": 10,
-      "points": 15
+      "points": 10
     },
     {
       "name": "Jurnal03b",
@@ -58,7 +58,7 @@
       "output": "Dira, Idar, Radi",
       "comparison": "included",
       "timeout": 10,
-      "points": 15
+      "points": 10
     },
 	{
       "name": "Jurnal03c",
@@ -68,7 +68,7 @@
       "output": "Idar, Radi, Dira",
       "comparison": "included",
       "timeout": 10,
-      "points": 15
+      "points": 10
     },
     {
       "name": "TP01a",
@@ -78,7 +78,7 @@
       "output": "Enam",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
     {
       "name": "TP01b",
@@ -88,7 +88,7 @@
       "output": "Bukan enam",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
 	{
       "name": "TP02a",
@@ -98,7 +98,7 @@
       "output": "Telur 20 x 18000 = 360000\nDiskon 10% = 36000\nTotal dibayar = 324000",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
 	{
       "name": "TP02b",
@@ -108,7 +108,7 @@
       "output": "Telur 5 x 18000 = 90000\nDiskon 0% = 0\nTotal dibayar = 90000",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
     {
       "name": "TP03a",
@@ -118,7 +118,7 @@
       "output": "Radi",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 3
     },
     {
       "name": "TP03b",
@@ -128,7 +128,7 @@
       "output": "Dira",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 3
     },
 	{
       "name": "TP03c",
@@ -138,7 +138,7 @@
       "output": "Idar",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 4
     }
   ]
 }
