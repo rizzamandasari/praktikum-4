@@ -14,7 +14,7 @@
       "name": "Jurnal01b",
       "setup": "javac Jurnal01.java",
       "run": "java Jurnal01",
-      "input": "12=3",
+      "input": "13",
       "output": "Bukan kelipatan empat",
       "comparison": "included",
       "timeout": 10,
